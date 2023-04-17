@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: postgres:15
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - ./volumes/postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: general
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+
+  mongo:
+    image: mongo:6.0.5
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - ./volumes/mongo:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+  mailpit:
+    image: axllent/mailpit:v1.5.4
+    restart: always
+    ports:
+      - 1025:1025 # SMTP
+      - 8025:8025 # WebUI
