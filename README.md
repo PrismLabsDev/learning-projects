@@ -14,15 +14,15 @@ We will create a basic todo application that will alow users to perform CRUD ope
 
 ## [Blog](https://github.com/PrismLabsDev/learning-projects/tree/main/projects/blog)
 
-This is a full stack blog application which has similar features to [Medium](https://medium.com/) or [Dev.to](https://dev.to/). This is overall a well rounded project and a good option to choose if you are looking to explore web development more in depth, or if you are learning a new language or framework and want to explore its features. On the back end we will explore HTTP requests and data relationships in more complexity than in the Todo app. On the front end we will explore page routing, application state.
+This is a full stack blog application which has similar features to [Medium](https://medium.com/) or [Dev.to](https://dev.to/). This is overall a well rounded project and a good option to choose if you are looking to explore web development more in depth, or if you are learning a new language or framework and want to explore its features. On the back end we will explore HTTP requests and data relationships in more complexity than in the Todo app. On the front end we will explore page routing and application state.
 
 ## [Chat](https://github.com/PrismLabsDev/learning-projects/tree/main/projects/chat)
 
-This is a full stack chat application which takes advantage of web sockets to perform real time bidirectional communication. This project is simple on the server but introduces you to a new way to communicate fro client to server.
+This is a full stack chat application which takes advantage of web sockets to perform real time bidirectional communication. This project is simple on the server but introduces you to a new way to communicate from client to server.
 
 # Docker Environment
 
-We have included a general docker environment to give you access to PostgreSQL, MongoDB and Mailpit. This allows you to build your projects with and SQL or NOSQL database, as well as test sending emails.
+We have included a general docker environment to give you access to PostgreSQL, MongoDB and Mailpit. This allows you to build your projects with an SQL or NOSQL database, as well as test sending emails.
 
 **All commands must be ran in the ```docker``` directory.**
 ``` bash
