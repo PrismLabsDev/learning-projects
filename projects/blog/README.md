@@ -244,3 +244,15 @@ These are the pages that our SPA will render and the corresponding routes.
 /article/:update
   - Allows you to edit a given article.
 ```
+
+## Completed examples
+
+This is a list of completed examples in different languages and frameworks.
+
+### Backend (API)
+
+* Vanilla JS with Express: [lp-blog-api-express](https://github.com/PrismLabsDev/lp-blog-api-express)
+
+### Frontend (SPA)
+
+* Vanilla JS React: [lp-blog-spa-react](https://github.com/PrismLabsDev/lp-blog-spa-react)
