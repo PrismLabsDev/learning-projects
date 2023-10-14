@@ -2,6 +2,8 @@
 
 Prisms Labs has put together this repository to help developers with project based learning. We maintain documentation outlining several different demo projects designed to explore a wide range of language and framework features. We also include a general docker configuration that will run PostgreSQL, MongoDB and Mailpit to aid in development. Each project contains detailed documentation including: overall project goals and scope, user stores, data relationships, api routes, pages, components and global state. We will also include a postman collection in each project so you can easily test the routes you build according to the documentation.
 
+These projects are designed to implement a standard API allowing you to mix and match languages and frameworks while maintaining the same level of functionality. What this means is that we are not concerned with your UI page structure, or your specific controller logic, although you can reference completed examples listed in the project documentation if you are stuck. Ideally if you created several versions of the application in multiple languages or frameworks, the frontend and backend should be completely interchangeable.
+
 # Projects
 
 ## [Portfolio](https://github.com/PrismLabsDev/learning-projects/tree/main/projects/portfolio)
